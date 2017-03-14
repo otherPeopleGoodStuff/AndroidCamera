@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jp.co.cyberagent.android.gpuimage.sample.activity;
+package jp.co.cyberagent.activity;
 
 import jp.co.cyberagent.android.gpuimage.sample.R;
 import android.app.Activity;

@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package jp.co.cyberagent.android.gpuimage.sample.activity;
+package jp.co.cyberagent.activity;
 
 import jp.co.cyberagent.android.gpuimage.GPUImageFilter;
 import jp.co.cyberagent.android.gpuimage.GPUImageView;
 import jp.co.cyberagent.android.gpuimage.GPUImageView.OnPictureSavedListener;
-import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools;
-import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools.FilterAdjuster;
-import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools.OnGpuImageFilterChosenListener;
+import jp.co.cyberagent.GPUImageFilterTools;
+import jp.co.cyberagent.GPUImageFilterTools.FilterAdjuster;
+import jp.co.cyberagent.GPUImageFilterTools.OnGpuImageFilterChosenListener;
 import jp.co.cyberagent.android.gpuimage.sample.R;
 import android.app.Activity;
 import android.content.Intent;

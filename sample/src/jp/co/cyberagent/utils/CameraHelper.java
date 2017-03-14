@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jp.co.cyberagent.android.gpuimage.sample.utils;
+package jp.co.cyberagent.utils;
 
 import static android.os.Build.VERSION.SDK_INT;
 import static android.os.Build.VERSION_CODES.GINGERBREAD;

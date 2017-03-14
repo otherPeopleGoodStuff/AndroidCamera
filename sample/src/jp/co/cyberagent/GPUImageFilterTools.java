@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jp.co.cyberagent.android.gpuimage.sample;
+package jp.co.cyberagent;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -22,6 +22,8 @@ import android.content.DialogInterface;
 import android.graphics.BitmapFactory;
 import android.graphics.PointF;
 import jp.co.cyberagent.android.gpuimage.*;
+import jp.co.cyberagent.android.gpuimage.sample.*;
+import jp.co.cyberagent.android.gpuimage.sample.R;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -183,7 +185,7 @@ public class GPUImageFilterTools {
             case TONE_CURVE:
                 GPUImageToneCurveFilter toneCurveFilter = new GPUImageToneCurveFilter();
                 toneCurveFilter.setFromCurveFileInputStream(
-                        context.getResources().openRawResource(R.raw.tone_cuver_sample));
+                        context.getResources().openRawResource(jp.co.cyberagent.android.gpuimage.sample.R.raw.tone_cuver_sample));
                 return toneCurveFilter;
             case BLEND_DIFFERENCE:
                 return createBlendFilter(context, GPUImageDifferenceBlendFilter.class);

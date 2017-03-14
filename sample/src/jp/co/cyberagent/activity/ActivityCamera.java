@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package jp.co.cyberagent.android.gpuimage.sample.activity;
+package jp.co.cyberagent.activity;
 
 import android.app.Activity;
 import android.graphics.Bitmap;
@@ -42,12 +42,12 @@ import java.util.Date;
 import jp.co.cyberagent.android.gpuimage.GPUImage;
 import jp.co.cyberagent.android.gpuimage.GPUImage.OnPictureSavedListener;
 import jp.co.cyberagent.android.gpuimage.GPUImageFilter;
-import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools;
-import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools.FilterAdjuster;
-import jp.co.cyberagent.android.gpuimage.sample.GPUImageFilterTools.OnGpuImageFilterChosenListener;
+import jp.co.cyberagent.GPUImageFilterTools;
+import jp.co.cyberagent.GPUImageFilterTools.FilterAdjuster;
+import jp.co.cyberagent.GPUImageFilterTools.OnGpuImageFilterChosenListener;
 import jp.co.cyberagent.android.gpuimage.sample.R;
-import jp.co.cyberagent.android.gpuimage.sample.utils.CameraHelper;
-import jp.co.cyberagent.android.gpuimage.sample.utils.CameraHelper.CameraInfo2;
+import jp.co.cyberagent.utils.CameraHelper;
+import jp.co.cyberagent.utils.CameraHelper.CameraInfo2;
 
 public class ActivityCamera extends Activity implements OnSeekBarChangeListener, OnClickListener {
 
